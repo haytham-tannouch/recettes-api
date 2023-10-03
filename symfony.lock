@@ -38,6 +38,15 @@
             "./.php-cs-fixer.dist.php"
         ]
     },
+    "phpstan/phpstan": {
+        "version": "1.10",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "f10b8054de1a94a3b9e8806a6453fd5c98491c44"
+        }
+    },
     "symfony/console": {
         "version": "6.3",
         "recipe": {
